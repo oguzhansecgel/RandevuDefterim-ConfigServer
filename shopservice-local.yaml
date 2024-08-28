@@ -1,4 +1,4 @@
-sping:
+spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/RandevuDefterim
     username: postgres
@@ -15,8 +15,7 @@ server:
   port: 8081
 
 
-
-  eureka:
+eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8888/eureka/
